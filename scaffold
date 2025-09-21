@@ -1,0 +1,1 @@
+Scaffold-DbContext "Host=154.38.160.115;Port=5432;Username=postgres;Password=u75VEbn>^959eun;Database=MiChoisesDevCW" Npgsql.EntityFrameworkCore.PostgreSQL -OutputDir Models -ContextDir Context -Context ApplicationDbContext -StartupProject CW.Basecode.WebAPI -Force
