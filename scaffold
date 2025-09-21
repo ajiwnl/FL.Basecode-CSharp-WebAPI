@@ -18,3 +18,20 @@ Run this command in Package Manager Console (set the Default Project dropdown to
 Scaffold-DbContext "Host=154.38.160.115;Port=5432;Username=postgres;Password=u75VEbn>^959eun;Database=MiChoisesDevCW" Npgsql.EntityFrameworkCore.PostgreSQL -OutputDir Models -ContextDir Context -Context ApplicationDbContext -StartupProject CW.Basecode.WebAPI -Force
 
 Note: Change the DB credentials. The command above is an example to MiChoisesDevCW setup.
+
+Step 6:
+Remove the explicit declaration of DB Credentials in ApplicatonDbContext.cs
+
+Step 7:
+In Program.cs, add 
+using CW.Basecode.Data.Context;
+
+Then
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+Step 8:
+Add this in appsettings.json:
+"ConnectionStrings": {
+  "DefaultConnection": "Host=154.38.160.115;Port=5432;Username=postgres;Password=u75VEbn>^959eun;Database=MiChoisesDevCW"
+},
