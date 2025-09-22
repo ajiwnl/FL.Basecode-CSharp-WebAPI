@@ -41,11 +41,20 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 ```
 
 ## Step 8
-Add this in `appsettings.json`:
+Create a file named `appsettings.json` under in the CW.Basecode.WebAPI directory:
 
 ```json
-"ConnectionStrings": {
-  "DefaultConnection": "Host=154.38.160.115;Port=5432;Username=postgres;Password=u75VEbn>^959eun;Database=MiChoisesDevCW"
+"{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=154.38.160.115;Port=5432;Username=postgres;Password=u75VEbn>^959eun;Database=MiChoisesDevCW"
+  },
+  "AllowedHosts": "*"
 }
 ```
 
