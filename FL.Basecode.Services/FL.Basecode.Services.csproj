@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CW.Basecode.Data\CW.Basecode.Data.csproj" />
-    <ProjectReference Include="..\CW.Basecode.Utilities\CW.Basecode.Utilities.csproj" />
+    <ProjectReference Include="..\FL.Basecode.Data\FL.Basecode.Data.csproj" />
+    <ProjectReference Include="..\FL.Basecode.Utilities\FL.Basecode.Utilities.csproj" />
   </ItemGroup>
 
 </Project>
