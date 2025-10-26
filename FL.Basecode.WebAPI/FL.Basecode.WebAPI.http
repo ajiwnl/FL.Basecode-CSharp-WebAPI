@@ -1,6 +1,6 @@
-@CW.Basecode.WebAPI_HostAddress = http://localhost:5094
+@FL.Basecode.WebAPI_HostAddress = http://localhost:5094
 
-GET {{CW.Basecode.WebAPI_HostAddress}}/weatherforecast/
+GET {{FL.Basecode.WebAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
