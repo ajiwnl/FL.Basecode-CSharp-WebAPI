@@ -1,4 +1,4 @@
-namespace CW.Basecode.Data
+namespace FL.Basecode.Data.Models
 {
     public class WeatherForecast
     {

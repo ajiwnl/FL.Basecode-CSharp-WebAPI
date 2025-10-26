@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CW.Basecode.Data\CW.Basecode.Data.csproj" />
-    <ProjectReference Include="..\CW.Basecode.Services\CW.Basecode.Services.csproj" />
-    <ProjectReference Include="..\CW.Basecode.Utilities\CW.Basecode.Utilities.csproj" />
+    <ProjectReference Include="..\CW.Basecode.Data\FL.Basecode.Data.csproj" />
+    <ProjectReference Include="..\CW.Basecode.Services\FL.Basecode.Services.csproj" />
+    <ProjectReference Include="..\CW.Basecode.Utilities\FL.Basecode.Utilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>

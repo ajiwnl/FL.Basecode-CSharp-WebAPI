@@ -1,4 +1,4 @@
-﻿namespace CW.Basecode.Utilities
+﻿namespace FL.Basecode.Utilities
 {
     public class Class1
     {

@@ -1,12 +1,12 @@
 ﻿using CW.Basecode.Data;
-using CW.Basecode.Services.Interfaces;
+using FL.Basecode.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CW.Basecode.Services.Implementations
+namespace FL.Basecode.Services.Implementation
 {
     public class WeatherService : IWeatherService
     {

@@ -1,8 +1,8 @@
-using CW.Basecode.Data;
-using CW.Basecode.Services.Interfaces;
+using FL.Basecode.Data.Models;
+using FL.Basecode.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CW.Basecode.WebAPI.Controllers
+namespace FL.Basecode.WebAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

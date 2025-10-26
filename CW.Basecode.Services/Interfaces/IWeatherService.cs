@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CW.Basecode.Services.Interfaces
+namespace FL.Basecode.Services.Interfaces
 {
     public interface IWeatherService
     {
