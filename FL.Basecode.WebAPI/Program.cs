@@ -1,7 +1,12 @@
+using FL.Basecode.Data;
 using FL.Basecode.Services.Implementation;
 using FL.Basecode.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddScoped<IWeatherService, WeatherService>();
