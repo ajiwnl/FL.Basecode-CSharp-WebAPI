@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace FL.Basecode.Data.Models
 {
-    [PrimaryKey(nameof(acctId))]
     public class mAccounts
     {
+        [Key]
         public string acctId { get; set; }
         [Required]
         public string userId { get; set; }
